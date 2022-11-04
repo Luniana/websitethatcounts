@@ -3,11 +3,8 @@ p{
     font-size: 500px;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: bottom;
     margin-top: 50px;
+    margin-left: 18px;
 
     
 }
@@ -15,15 +12,11 @@ button{
     font-size: 100px;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    vertical-align: bottom;
+    display: block;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-left: 785px;
     border: none;
     border-radius: 5px;
     background-color: red;
@@ -36,6 +29,15 @@ button:active{
     background-color: #00FF00;
 }
 body{
-    background-color: #00FF00;
+    background-color: #22ff22;
     transition: background-color 0.2s;
+}
+body:hover{
+    background-color: #00FF00;
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
