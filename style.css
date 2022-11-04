@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+p{
+    font-size: 500px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    margin-top: 50px;
+
+    
+}
+button{
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 785px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 42, 42);
+}
+button:active{
+    background-color: #00FF00;
+}
+body{
+    background-color: #00FF00;
+    transition: background-color 0.2s;
+}
